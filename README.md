@@ -15,7 +15,7 @@ Since there is no `Scripts` folder, it indicates that `pip` might not have been 
       ```
 
 3. **Check the installation directory**:
-    - After running `get-pip.py`, check if a `Scripts` folder is created in the Python installation directory (`C:\Users\xxx\Desktop`). It should contain the `pip` executable.
+    - After running `get-pip.py`, check if a `Scripts` folder is created in the Python installation directory (`C:\Users\xxx\Desktop`)please use your installation directory. It should contain the `pip` executable.
 
 4. **Add `pip` to the PATH environment variable**:
     - If the `Scripts` folder exists, add it to your PATH:
@@ -26,7 +26,7 @@ Since there is no `Scripts` folder, it indicates that `pip` might not have been 
           - Click "Environment Variables."
       - In the Environment Variables window, find the `Path` variable in the "System variables" section and select it.
       - Click "Edit."
-      - In the Edit Environment Variable window, click "New" and add the path to the `Scripts` directory (`C:\Users\xxx\Desktop\Scripts`).
+      - In the Edit Environment Variable window, click "New" and add the path to the `Scripts` directory (`C:\Users\xxx\Desktop\Scripts`).please use your installation directory
       - Click "OK" to close all windows.
       - Close the command prompt and open a new one to apply the changes.
 
